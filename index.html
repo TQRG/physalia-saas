@@ -12,7 +12,49 @@
   </head>
   <body>
     <div id='app' class='container'>
-      <h1>{{ message }}</h1>
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Physalia</h3>
+        <hr/>
+      </div>
+      <div class="jumbotron">
+        <h1>Physalia</h1>
+        <p class="lead">Cloud energy efficiency monitor for your mobile application!</p>
+        <p><a class="btn btn-lg btn-success" href="mailto:luiscruz@fe.up.pt?Subject=Physalia%20-%20I%20want%20to%20use%20it!" role="button">Ask for access!</a></p>
+      </div>
+      <div class='row'>
+        <div class='col-xs-4'>
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              1. Upload APK
+            </div>
+          </div>
+        </div>
+        <div class='col-xs-4'>  
+          <div class="panel panel-default">
+            <div class="panel-body text-center text-large">
+              2. Upload Interaction Script
+            </div>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div class="panel panel-default">
+            <div class="panel-body text-center">
+              3. Run &amp; Analyze!
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <footer class="footer">
+        <p>© 2017 Luis Cruz, Rui Abreu.</p>
+      </footer>
     </div>
     <script src="https://unpkg.com/vue"></script>
     <script type="text/javascript" src="js/app.js"></script>
